@@ -1,0 +1,58 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 21, 21);
+    color: #f50000fb;
+}
+
+p {
+    padding-top: 600px;
+}
+
+
+
+.wrapper {
+    display: grid;
+    padding: 1em;
+    grid-template: 15em 5em 10em 5em / 1fr 2fr 1fr; 
+}
+
+.box1 {
+    background-color: rgb(145, 155, 11);
+}
+
+.box2 {
+    background-color: rgb(6, 116, 6);
+}
+
+
+.rgb {
+    background-color: rgb(177, 10, 154);
+    order: 1;
+}
+
+
+
+
+
+.wrapper1 {
+    margin-top: 300px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template: repeat(5, 150px) / repeat(5, 20%);
+}
+
+.water {
+    background-color: rgb(16, 166, 185);
+    grid-area: 2/2/5/5;
+}
+
+.cuc {
+    grid-area: 5/1/5/3;
+}
+
+.cuk {
+    grid-area: 5/4/5/6;
+}
